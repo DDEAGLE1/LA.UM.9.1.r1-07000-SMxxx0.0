@@ -1,5 +1,6 @@
 #!/bin/bash
 
+apt-get update
 apt-get install cpio xz-utils
 
 DATE=$(date +"%Y%m%d-%H%M")
